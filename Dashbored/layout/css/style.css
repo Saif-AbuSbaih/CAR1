@@ -1,0 +1,72 @@
+
+/* Start main rulez */
+body{
+
+    background-color:#F4F4F4;
+    font-size: 16px;
+}
+
+
+/* End main rulez */
+/* start log in form */
+
+.login{
+    width: 300px;
+    margin: 100px auto;
+}
+.login input{
+    margin-bottom: 10px;
+}
+.login .Form-control {
+    background-color:whitesmoke;
+}
+.login .btn {
+    background-color: #008dde;
+}
+.Login h4 {
+    color:#888;
+
+}
+
+
+/* end log in form */
+
+/* Start bootstab edits */
+
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar-brand,
+.navbar-nav>li>a{
+    padding: 10px 12px;
+
+}
+.navbar-brand{
+    font-size: 1em;
+}
+/* End bootstab edits */
+
+/* Start members page form */
+h1{
+    margin: 40px 0px;
+}
+.show-pass{
+    position: absolute;
+    right: -3px;
+    top: 15;
+}
+.main-table{
+    -webkit-box-shadow: 0 3px 10px #ccc;
+    -moz-box-shadow: 0 3px 10px #ccc;
+    box-shadow: 0 3px 10px #ccc;
+
+
+    
+}
+.main-table tr:first-child td{
+    background-color: #333;
+    color: #FFF;
+}
+
+/* end members page */
