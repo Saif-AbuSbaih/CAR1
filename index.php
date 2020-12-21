@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
+    <?php     session_start(); ?>
+
 
 <head>
     <meta charset="UTF-8">
@@ -36,7 +38,7 @@
         <div class="offcanvas__widget">
 
             <a href="#" class="search-switch"><i class="fa fa-search"></i></a>
-            <a href="#" class="primary-btn">تسجيل الدخول</a>
+            <a href="login.php" class="primary-btn">تسجيل الدخول</a>
         </div>
         <div class="offcanvas__logo">
             <a href="./index.html"><img src="img/logo.png" alt=""></a>
@@ -72,7 +74,7 @@
                         <nav class="header__menu">
                             <ul>
                                 <li class="active"><a href="./index.html">الرئيسية</a></li>
-                                <li><a href="./car.html">السيارات</a></li>
+                                <li><a href="./car.php">السيارات</a></li>
                                 <li><a href="./blog.html">مدونة</a></li>
                                 <li><a href="./about.html">حول الموقع</a></li>
                                 <li><a href="./contact.html">تواصل معنا</a></li>
@@ -82,7 +84,12 @@
                             <div class="header__nav__widget__btn">
                                 <a href="#" class="search-switch"><i class="fa fa-search"></i></a>
                             </div>
-                            <a href="#" class="primary-btn">تسجيل الدخول</a>
+                            <?php if(isset($_SESSION['UserName'])) {
+                                echo'     <a href="logout.php" class="primary-btn">تسجيل الخروج</a>';
+                            }else{
+                                echo'     <a href="login.php" class="primary-btn">تسجيل الدخول</a>';
+
+                            } ?>
                         </div>
                     </div>
                 </div>
