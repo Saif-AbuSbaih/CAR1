@@ -180,8 +180,46 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                   
+                <?php       // select the data 
+                            $stmt=$con->prepare("SELECT * FROM cars ");
+                                // exeute the statment 
+                            $stmt->execute();
+                                // Assign to variable 
+                            $rows=$stmt->fetchALL();
+                          //  echo'   <div class="row">';
+                foreach($rows as $row){        
                     
+                            
+                    echo'        <div class="col-lg-4 col-md-4">';
+                    echo'    <div class="car__item">';
+                    echo'        <div class="car__item__pic__slider owl-carousel">';
+                    echo'            <img src="'.$img.$row['image'].'" alt="">';
+                    echo'            <img src="img/cars/car-8.jpg" alt="">';
+                    echo'           <img src="img/cars/car-6.jpg" alt="">';
+                    echo'            <img src="img/cars/car-4.jpg" alt="">';
+                    echo'        </div>';
+                    echo'          <div class="car__item__text">';
+                    echo'               <div class="car__item__text__inner">';
+                    echo'                   <div class="label-date">'.$row['model'].'</div>';
+                    echo'                    <h5><a href="#">'.$row['type'].'</a></h5>';
+                    echo'                    <ul>';
+                    echo'                        <li><span>'.$row['KM'].'</span> mi</li>';
+                    echo'                          <li>'.$row['gear'].'</li>';
+                    echo'                           <li><span>'.$row['horsepower'].'</span> hp</li>';
+                    echo'                        </ul>';
+                    echo'                     </div>';
+                    echo'                      <div class="car__item__price">';
+                    echo'                           <span class="car-option sale">For Sale</span>';
+                    echo'                        <h6>$'.$row['price'].'</h6>';
+                    echo'                 </div>';
+                    echo'             </div>';
+                    echo'            </div>';
+                    echo'          </div>';
+                    
+                }
+                    ?>
+                   </div>
                     <div class="pagination__option">
                         <a href="#" class="active">1</a>
                         <a href="#">2</a>
