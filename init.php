@@ -6,7 +6,7 @@
  $func = 'Dashbored/includes/Functions/'; // functions dairctory 
  $css  = 'Dashbored/layout/css/';    // css path 
  $js   = 'Dashbored/layout/js/';     // js path 
- 
+ $img  = 'img/cars/';
 
  include $func.'function.php';
  include $lang.'english.php';
