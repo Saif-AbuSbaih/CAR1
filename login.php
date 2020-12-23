@@ -6,7 +6,7 @@
         if(isset($_SESSION['UserName'])) {
         header('location: index.php'); // redirect to main page 
         }
-     include 'Dashbored/init.php';
+     include 'init.php';
      
      
 

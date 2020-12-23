@@ -35,7 +35,7 @@
                     <div class="breadcrumb__text">
                         <h2>Contact Us</h2>
                         <div class="breadcrumb__links">
-                            <a href="./index.html"><i class="fa fa-home"></i> Home</a>
+                            <a href="./index.php"><i class="fa fa-home"></i> Home</a>
                             <span>Contact Us</span>
                         </div>
                     </div>

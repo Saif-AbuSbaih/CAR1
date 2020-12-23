@@ -41,7 +41,7 @@
             <a href="login.php" class="primary-btn">تسجيل الدخول</a>
         </div>
         <div class="offcanvas__logo">
-            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            <a href="./index.php"><img src="img/logo.png" alt=""></a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <ul class="offcanvas__widget__add">
@@ -66,18 +66,18 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="./index.php"><img src="img/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-10">
                     <div class="header__nav">
                         <nav class="header__menu">
                             <ul>
-                                <li class="active"><a href="./index.html">الرئيسية</a></li>
+                                <li class="active"><a href="./index.php">الرئيسية</a></li>
                                 <li><a href="./car.php">السيارات</a></li>
-                                <li><a href="./blog.html">مدونة</a></li>
-                                <li><a href="./about.html">حول الموقع</a></li>
-                                <li><a href="./contact.html">تواصل معنا</a></li>
+                                <li><a href="./blog.php">مدونة</a></li>
+                                <li><a href="./about.php">حول الموقع</a></li>
+                                <li><a href="./contact.php">تواصل معنا</a></li>
                             </ul>
                         </nav>
                         <div class="header__nav__widget">

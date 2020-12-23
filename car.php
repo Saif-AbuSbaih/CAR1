@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
-
+<?php   $nonavbar='';
+        include 'init.php'; ?>
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="HVAC Template">
@@ -34,8 +35,8 @@
                     <div class="breadcrumb__text">
                         <h2>Car Listing</h2>
                         <div class="breadcrumb__links">
-                            <a href="./index.html"><i class="fa fa-home"></i> Home</a>
-                            <span>About</span>
+                            <a href="./index.php"><i class="fa fa-home"></i> Home</a>
+                            <span>Car</span>
                         </div>
                     </div>
                 </div>

@@ -36,7 +36,7 @@
                     <div class="breadcrumb__text">
                         <h2>About Us</h2>
                         <div class="breadcrumb__links">
-                            <a href="./index.html"><i class="fa fa-home"></i> Home</a>
+                            <a href="./index.php"><i class="fa fa-home"></i> Home</a>
                             <span>About Us</span>
                         </div>
                     </div>
